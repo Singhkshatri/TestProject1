@@ -184,7 +184,7 @@ namespace TestProject1
             emailid.SendKeys("techno@gmail.com");
 
             IWebElement passwd = driver.FindElement(By.XPath("//form[@action='/login']//input[@type='password']"));
-            mnuyu67upasswd.SendKeys("Techno879");
+            passwd.SendKeys("Techno879");
 
             //Click 'login' button
             IWebElement loginBtn = driver.FindElement(By.XPath("//button[text()='Login']"));
